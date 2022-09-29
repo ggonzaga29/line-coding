@@ -4,7 +4,7 @@ public:
 
   void decode() {
 		for(char bit : signal) {
-			bit == '1' ? (output).push_back("hi") : (output).push_back("lo");
+			bit == '1' ? (output).push_back("pos") : (output).push_back("neg");
 		}
 	}
 };
