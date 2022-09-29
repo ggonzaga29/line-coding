@@ -1,6 +1,6 @@
-class UnipolarNRZ : public Encoding {
+class NRZ_L : public Encoding {
 public:
-  explicit UnipolarNRZ(std::string sig) : Encoding(sig){};
+  explicit NRZ_L(std::string sig) : Encoding(sig){};
 
   void decode() {
 		for(char bit : signal) {

@@ -14,6 +14,8 @@ public:
     for (std::string out : output) {
       std::cout << out << " ";
     }
+
+		std::cout << "\n";
   }
 
 	std::string getSignal() {
